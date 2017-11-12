@@ -1,0 +1,1 @@
+docker run --name foo -d -p 127.0.0.1:8080:80 -p 127.0.0.1:2002:2002 -v /var/www/html/images:/usr/html/images foo

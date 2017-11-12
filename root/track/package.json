@@ -1,0 +1,14 @@
+{
+  "name": "wsserver",
+  "version": "1.0.0",
+  "description": "Shared Canvas Node.js Application",
+  "main": "wsserver.js",
+  "scripts": {
+    "start": "node wsserver.js"
+  },
+  "author": "Brian Silverman",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "1.1.1"
+  }
+}

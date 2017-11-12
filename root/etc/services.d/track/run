@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv sh
+
+cd /track
+
+s6-setuidgid guest /bin/sh -c "exec node wsserver.js;"

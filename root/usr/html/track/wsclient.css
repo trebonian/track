@@ -1,0 +1,21 @@
+body {
+ background: white;
+ color: black;
+ font-family: cursive;
+ font-size: 30px;
+}
+
+div.frame {
+ margin-left: 60px;
+ position: relative;
+ width: 800px;
+ height: 600px;
+}
+
+canvas.cnv {
+ position: absolute;
+ width: 800px;
+ height: 600px;
+ top: 0px;
+ left: 0px;
+}
